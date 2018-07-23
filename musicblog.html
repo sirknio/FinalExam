@@ -7,17 +7,111 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Music Blog</title>
+    <title>Music Blogs</title>
   </head>
-  <body>
+  <body class="bg-success">
     <div class="row">
-        <div class="col-lg-8 col-md-12 col-sm-12 text-center">
-            <img src="img/logo.png" class="img-fluid" style="height: 150px" alt="Responsive image">
+      <div class="col-lg-2 bg-success"></div>
+      <div class="col-lg-8 col-md-12 col-sm-12" style="background: white;">
+        <div class="row">
+          <div class="col-12">
+            <!-- header section -->
+            <div class="row">
+              <div class="col-lg-2 col-md-12 col-sm-12 text-center">
+                <img src="img/logo.png" class="img-fluid" style="max-height: 150px" alt="Responsive image">
+              </div>
+              <div class="col-lg-10 col-md-12 col-sm-12 text-lg-right text-center align-self-end">
+                <i class="fab fa-youtube-square fa-2x"></i>
+                <i class="fab fa-facebook-square fa-2x"></i>
+                <i class="fab fa-instagram fa-2x"></i>
+                <i class="fab fa-pinterest-square fa-2x"></i>
+                <i class="fab fa-twitter-square fa-2x"></i>
+              </div>
+            </div>
+            <!-- menu section -->
+            <div class="row">
+              <div class="col-12">
+                  <ul class="nav nav-pills nav-fill flex-column flex-sm-row">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Artistas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Grupos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Top 10</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Letras</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Acordes</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+            <div id="row">
+              <div id="col-12">&nbsp;</div>
+            </div>
+            <!-- content section -->
+            <div class="row">
+                <div class="col-12 col-sm-8">
+                  <div id="row">
+                    <div id="col-12"><h5>Cómo esta impactando la música cristiana moderna</h5></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-sm-8">
+                        Existen nuevas 
+                    </div>
+                    <div class="col-12 col-sm-4 bg-warning"><img src="img/music_blog.jpg" class="img-fluid" alt=""></div>
+                  </div>
+                  <div id="row">
+                    <div id="col-12">&nbsp;</div>
+                  </div>
+                  <div id="row">
+                    <div id="col-12">
+                      <form>
+                          <div class="input-group mb-2">
+                            <div class="input-group-prepend">
+                              <div class="input-group-text"><i class="fa fa-user fa-3x"></i></div>
+                            </div>
+                            <textarea class="form-control" rows="4" cols="50" placeholder="Comentarios..."></textarea>
+                          </div>                                
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-4">
+                  <div id="row">
+                    <label class="sr-only" for="LookFor">Buscar por</label>
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-search"></i></div>
+                      </div>
+                      <input type="text" class="form-control" id="LookFor" placeholder="Buscar por">
+                    </div>  
+                  </div>
+                  <div id="row">
+                    <div class="list-group">
+                      <a href="#" class="list-group-item list-group-item-action">Por Título</a>
+                      <a href="#" class="list-group-item list-group-item-action">Por Artista</a>
+                      <a href="#" class="list-group-item list-group-item-action">Las mas escuchadas</a>
+                      <a href="#" class="list-group-item list-group-item-action">Por Fecha</a>
+                      <a href="#" class="list-group-item list-group-item-action">Por Lanzamiento</a>
+                    </div>
+                  </div>            
+                </div>
+            </div>
+          </div>
         </div>
-        <div class="col-4">Pruebas de responsive</div>
+      </div>
+      <div class="col-lg-2 bg-success"></div>
     </div>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
